@@ -9,7 +9,7 @@
     );
   }
   messages.forEach(function(message) {
-    var urls = message.innerHTML.match(/\bhttps?:\/\/\S+/gi);
+    var urls = message.innerHTML.match(/\bwww.https?:\/\/\S+/gi);
     if (urls) {
       urls.forEach(function(url) {
         message.innerHTML = message.innerHTML.replace(url, '<a href="' + url + '">' + url + "</a>");
