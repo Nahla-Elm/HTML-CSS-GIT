@@ -1,12 +1,12 @@
 /* Add your CSS code below */
-first-message {
+.first-message {
   background-color: red;
 }
 
-second-message {
+.second-message {
   background-color: cadetblue;
 }
 
-third-message {
+.third-message {
   background-color: yellow;
 }
