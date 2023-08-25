@@ -1,1 +1,22 @@
 /* Add your CSS code below */
+.link {
+  color: red;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.message__time {
+  font-size: 0.9rem;
+}
+
+.last-message {
+  border: 5px solid blue;
+}
+
+.message__timee {
+  opacity: 0.4;
+}
+
+.message__content {
+  line-height: 1.5em;
+}
