@@ -9,9 +9,9 @@
 /* Add your own CSS code below */
 .countries--third .country {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 .countries--fourth .country {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: row-reverse;
 }

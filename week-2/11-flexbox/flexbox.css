@@ -2,5 +2,14 @@
 
 countries-first {
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
+}
+
+countries-second {
+  display: flex;
+}
+
+countries-third {
+  display: flex;
+  flex-direction: column-reverse;
 }
