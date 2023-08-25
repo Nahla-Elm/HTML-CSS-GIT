@@ -1,1 +1,26 @@
 /* Write your media queries and flexbox CSS below */
+@media screen and (min-width: 480px) {
+  .site-header__nav {
+    columns: 3;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .site-wrapper {
+    columns: 4;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .site-wrapper {
+    columns: 4;
+    align-items: center;
+    flex-direction: row;
+  }
+  .site-wrapper :site-header__checkout {
+    align-self: flex-end;
+    flex-direction: column;
+  }
+}
