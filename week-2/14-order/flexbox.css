@@ -3,3 +3,23 @@
 }
 
 /* Add your own CSS code below */
+.countries-first {
+  align-items: stretch;
+  flex-direction: row;
+}
+
+.countries :country-brazil {
+  order: 3;
+}
+.countries :country-croatia {
+  order: 1;
+}
+.countries :country-ethiopi {
+  order: 1;
+}
+.countries :country-laos {
+  order: 2;
+}
+.countries :country-uganda {
+  order: 2;
+}
