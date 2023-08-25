@@ -1,1 +1,11 @@
 /* Try different box model properties below */
+div > p {
+  color: white;
+  line-height: 0.3rem;
+  margin-bottom: 0;
+  font-size: 12px;
+  text-align: center;
+}
+.site-footer {
+  box-shadow: 4px 4px 0 #dba944;
+}
