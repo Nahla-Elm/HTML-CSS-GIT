@@ -3,3 +3,69 @@
 }
 
 /* Add your own CSS code below */
+.countries-first {
+  align-items: stretch;
+  flex-direction: row;
+}
+.countries-first :country-ethiopia {
+  align-self: self-end;
+}
+
+.countries-second {
+  align-items: stretch;
+  flex-direction: row;
+}
+.countries-second :country-ethiopia {
+  align-self: self-end;
+}
+.countries-second :country-brazil {
+  align-self: center;
+}
+.countries-second :country-laos {
+  align-self: center;
+}
+.countries-second :country-uganda {
+  align-self: center;
+}
+.countries-second :country-croatia {
+  align-self: center;
+}
+
+.countries-third {
+  align-items: stretch;
+  flex-direction: row;
+}
+.countries-third :country-ethiopia {
+  align-self: self-end;
+}
+.countries-third :country-brazil {
+  align-self: self-start;
+}
+.countries-third :country-laos {
+  align-self: self-end;
+}
+.countries-third :country-uganda {
+  align-self: self-start;
+}
+.countries-third :country-croatia {
+  align-self: self-end;
+}
+.countries-fourth {
+  align-items: stretch;
+  flex-direction: column;
+}
+.countries-fourth :country-ethiopia {
+  align-self: self-start;
+}
+.countries-third :country-brazil {
+  align-self: self-start;
+}
+.countries-third :country-laos {
+  align-self: self-start;
+}
+.countries-third :country-uganda {
+  align-self: center;
+}
+.countries-third :country-croatia {
+  align-self: self-start;
+}
